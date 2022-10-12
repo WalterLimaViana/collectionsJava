@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f07894f0-9f89-49a0-8a0f-27e199724335" name="Changes" comment="creating lists">
+    <list default="true" id="f07894f0-9f89-49a0-8a0f-27e199724335" name="Changes" comment="creating new lists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ExemploList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExemploList.java" afterDir="false" />
     </list>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664328257046</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creating new lists">
+      <created>1665449886898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665449886898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +108,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="add readme" />
     <MESSAGE value="creating lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating lists" />
+    <MESSAGE value="creating new lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating new lists" />
   </component>
 </project>

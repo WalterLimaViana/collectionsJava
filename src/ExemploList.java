@@ -47,6 +47,26 @@ public class ExemploList {
         System.out.println("Exiba a soma dos valores: " + soma);
         System.out.println("Exiba a média das notas: " + (soma /notas.size()));
         System.out.println("Remova a nota 0: ");
+        notas.remove(0d);
+        System.out.println(notas);
+
+        System.out.println("Remova a nota da posição 0: ");
+        notas.remove(0);
+        System.out.println(notas);
+
+        System.out.println("Remova as notas menores que 7 e exiba a lista");
+        Iterator<Double> iterator1 = notas.iterator();
+        while (iterator1.hasNext()) {
+            Double next = iterator1.next();
+            if(next < 7) iterator1.remove();
+        }
+        System.out.println(notas);
+
+        System.out.println("Apague toda a lista");
+        notas.clear();
+        System.out.println(notas);
+
+        System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
 
 
 
