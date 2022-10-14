@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+Kyimport java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
@@ -67,7 +67,16 @@ public class ExemploList {
         System.out.println(notas);
 
         System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
+        
+        notas.add(8.0);
+        notas.add(6.5);
+        notas.add(6.3);
+        notas.add(5.0);
+        notas.add(7.0);
+        notas.add(10.0);
+        notas.add(5.6);
 
+        System.out.println("Imprimir novas notas" + notas);
 
 
 
